@@ -39,12 +39,12 @@ kg-llm-ir/
 │   └── QA_NULL.csv
 │
 ├── evaluation/        # Evaluation scripts and metric outputs
-│   ├── results/ -> here are the retrieval evaluation results located
+│   ├── results/       # here are the retrieval evaluation results located
 │   ├── retrieval_evaluation.py
 │   ├── generation_evaluation.py
 │   ├── retrieval_evaluation_output.txt
 │   ├── generation_evaluation_output.txt
-│   └── generation_evaluation_xxx.csv -> here are the generation evaluation results located
+│   └── generation_evaluation_xxx.csv    # here are the generation evaluation results located
 │
 ├── proposed_approach/  # Implementation of Graph TRACE (the proposed approach)
 │   └── GraphTRACE.py
@@ -54,7 +54,7 @@ kg-llm-ir/
 │
 ├── utils/              # Utility functions and shared tools
 │
-├── .env                # Environment variables (should not be versioned)
+├── .env                # Environment variables (HERE you have to include your private OpenAI API key)
 ```
 
 ### Instructions how to set up the graph data base in neo4j Desktop (on your local machine)
@@ -78,16 +78,15 @@ kg-llm-ir/
 
 
 ### How to reproduce the evaluations
-To reproduce the evaluations for retrieval and generation results, simply run these comands in the following folder  
-./evaluation/    
-python retrieval_evaluation.py
-python generation_evaluation.py
+To reproduce the evaluations for retrieval and generation results, simply run these comands in the ./evaluation/ folder  
+- python retrieval_evaluation.py
+- python generation_evaluation.py
 
 
-### How to simply look at the results  
-The following documents includes the retrieval and generation results that are published in the thesis
-retrieval_evaluation_output.txt  
-generation_evaluation_output.txt
+### How to simply look at the results (without recalculation) 
+The following documents includes the retrieval and generation evaluation results that are published in the thesis
+- ./evaluation/retrieval_evaluation_output.txt  
+- ./evaluation/generation_evaluation_output.txt
 
 
 ### How to run one of the approaches (baselines or Graph TRACE)
@@ -99,6 +98,9 @@ generation_evaluation_output.txt
 The credentials are automatically used by dotenv, but initially you have to insert your private API key 
 OPEN_API_KEY=...
 
+
+### CAUTION ###
+In the most scripts the command **df.to_csv(...)** is used. If you don't want to overwrite the respective file, you have to choose another file name or comment out this line.
 
 
 
