@@ -21,7 +21,7 @@ def clean_kg(df):
 
 if __name__ == "__main__":
 
-    kg = pd.read_csv("data/Economic-KG-with-blank.csv")
+    kg = pd.read_csv(r'../data/Economic-KG-with-blank.csv")
     kg_clean = clean_kg(kg)
     #print(kg_clean.head())
     kg_clean.to_csv("data/Economic_KG.csv", index=False)
