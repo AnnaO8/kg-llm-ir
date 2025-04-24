@@ -620,15 +620,15 @@ if __name__ == '__main__':
     
 
     
-    #kg = pd.read_csv("data/Economic-KG-cleaned.csv")
+    #kg = pd.read_csv(r"../data/Economic_KG.csv")
     #nodes = set(kg['n']).union(set(kg['m']))
     #nodes = list(nodes)
     
-    #QA_df = pd.read_csv('../../data/QA_data/QA_converging_with_blank_from_Subgraph_with_path_validation.csv')
-    #QA_df = pd.read_csv('../../data/QA_data/QA_divergent_with_blank_from_Subgraph_with_path_validation.csv')
-    QA_df = pd.read_csv('../../data/QA_data/QA_Linear_with_blank_from_Subgraph_with_path_validation.csv')
+    QA_converging = pd.read_csv(r"../data/QA_Converging.csv")
+    #QA_divergent = pd.read_csv(r"../data/QA_Divergent.csv")
+    #QA_linear = pd.read_csv(r"../data/QA_Linear.csv")
     
-    ToG(QA_df)
+    ToG(QA_converging)
     
     #datas, question_string = prepare_dataset(args.dataset)
     #print("Start Running ToG on %s dataset." % args.dataset)
