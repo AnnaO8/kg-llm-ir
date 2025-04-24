@@ -6,3 +6,4 @@ llama-index
 llama-index-retrievers-bm25
 neo4j
 matplotlib
+seaborn
