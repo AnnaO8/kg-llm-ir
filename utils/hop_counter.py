@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 #df.to_csv("../data/QA_small/QA_Divergent_small.csv", index=False)
 
-df = pd.read_csv("../data/QA_small/QA_linear_with_blank_from_Subgraph_with_path_validation.csv")
+df = pd.read_csv(r"../data/QA_Converging.csv")
 df["hop_count"] = df.apply(lambda row: get_hop_count_from_path(str(row["Path"])), axis=1)
-#df.to_csv("../data/QA_small/QA_Linear_small.csv", index=False)
+#df.to_csv("../data/QA_Converging.csv", index=False)
 
