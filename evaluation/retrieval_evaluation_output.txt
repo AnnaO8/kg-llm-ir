@@ -1,0 +1,356 @@
+==== METRICS - HOP COUNT - CONVERGING ====
+Naive RAG - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.5000, MAP=0.1250, Hit@10=1.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.7500, MAP=0.1900, Hit@10=1.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.4094, MAP=0.1250, Hit@10=0.9565
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.3482, MAP=0.0677, Hit@10=0.7660
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.2196, MAP=0.0452, Hit@10=0.5882
+
+Naive RAG Subquery - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.5000, MAP=0.2500, Hit@10=1.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.2667, MAP=0.1517, Hit@10=1.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.4650, MAP=0.2073, Hit@10=0.9130
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.3501, MAP=0.1078, Hit@10=0.8936
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.2908, MAP=0.0940, Hit@10=0.7647
+
+Hybrid RAG - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.3333, MAP=0.0833, Hit@10=1.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.3750, MAP=0.1083, Hit@10=1.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.5345, MAP=0.1597, Hit@10=0.9565
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.3055, MAP=0.0591, Hit@10=0.7447
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.1849, MAP=0.0402, Hit@10=0.5294
+
+Rerank RAG - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.5000, MAP=0.2083, Hit@10=1.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.5000, MAP=0.2429, Hit@10=1.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.4301, MAP=0.1366, Hit@10=0.9565
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.2889, MAP=0.0714, Hit@10=0.8511
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.1737, MAP=0.0322, Hit@10=0.5882
+
+Naive GraphRAG - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.0605, MAP=0.0187, Hit@10=0.3913
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.0607, MAP=0.0145, Hit@10=0.2128
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.0580, MAP=0.0196, Hit@10=0.2941
+
+KG_RAG - Converging - Hop Count
+# QA count for  4 -hop:  1
+Empty answers:  1
+Hop Count 4: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  5 -hop:  2
+Empty answers:  0
+Hop Count 5: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  6 -hop:  23
+Empty answers:  0
+Hop Count 6: MRR=0.0336, MAP=0.0072, Hit@10=0.1739
+# QA count for  7 -hop:  47
+Empty answers:  9
+Hop Count 7: MRR=0.1606, MAP=0.0285, Hit@10=0.3617
+# QA count for  8 -hop:  17
+Empty answers:  0
+Hop Count 8: MRR=0.0470, MAP=0.0064, Hit@10=0.1176
+
+GraphTRACE - Converging - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.2000, MAP=0.1056, Hit@10=1.0000
+# QA count for  5 -hop:  2
+Hop Count 5: MRR=0.7500, MAP=0.3100, Hit@10=1.0000
+# QA count for  6 -hop:  23
+Hop Count 6: MRR=0.5765, MAP=0.3276, Hit@10=1.0000
+# QA count for  7 -hop:  47
+Hop Count 7: MRR=0.5377, MAP=0.2433, Hit@10=0.8511
+# QA count for  8 -hop:  17
+Hop Count 8: MRR=0.1960, MAP=0.0667, Hit@10=0.5882
+
+==== METRICS - HOP COUNT - Divergent ====
+
+Naive RAG - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.2500, MAP=0.0625, Hit@10=1.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.2917, MAP=0.1010, Hit@10=0.7000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.4433, MAP=0.1060, Hit@10=0.8000
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.3937, MAP=0.0836, Hit@10=0.8750
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=1.0000, MAP=0.1750, Hit@10=1.0000
+
+Naive RAG Subquery - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.5000, MAP=0.1250, Hit@10=1.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.2010, MAP=0.0813, Hit@10=0.8000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.4037, MAP=0.1233, Hit@10=0.8143
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.2661, MAP=0.0704, Hit@10=1.0000
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=1.0000, MAP=0.3438, Hit@10=1.0000
+
+Hybrid RAG - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.2500, MAP=0.0625, Hit@10=1.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.3617, MAP=0.1310, Hit@10=0.7000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.3993, MAP=0.0985, Hit@10=0.8143
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.3762, MAP=0.0716, Hit@10=0.8750
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=0.5000, MAP=0.1125, Hit@10=1.0000
+
+Rerank RAG - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.2500, MAP=0.0625, Hit@10=1.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.3017, MAP=0.0913, Hit@10=0.9000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.3689, MAP=0.0943, Hit@10=0.8143
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.2958, MAP=0.0703, Hit@10=1.0000
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=0.5000, MAP=0.1994, Hit@10=1.0000
+
+Naive GraphRAG - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.0324, MAP=0.0090, Hit@10=0.1000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.0148, MAP=0.0035, Hit@10=0.0571
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.0104, MAP=0.0015, Hit@10=0.0000
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=0.0909, MAP=0.0968, Hit@10=0.0000
+
+KG_RAG - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Empty answers:  1
+Hop Count 4: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  5 -hop:  10
+Empty answers:  1
+Hop Count 5: MRR=0.1091, MAP=0.0218, Hit@10=0.1000
+# QA count for  6 -hop:  70
+Empty answers:  11
+Hop Count 6: MRR=0.0798, MAP=0.0133, Hit@10=0.1857
+# QA count for  7 -hop:  8
+Empty answers:  1
+Hop Count 7: MRR=0.0114, MAP=0.0031, Hit@10=0.0000
+# QA count for  8 -hop:  1
+Empty answers:  0
+Hop Count 8: MRR=1.0000, MAP=0.1250, Hit@10=1.0000
+
+GraphTRACE - Divergent - Hop Count
+# QA count for  4 -hop:  1
+Hop Count 4: MRR=0.2000, MAP=0.2339, Hit@10=1.0000
+# QA count for  5 -hop:  10
+Hop Count 5: MRR=0.3169, MAP=0.1377, Hit@10=0.8000
+# QA count for  6 -hop:  70
+Hop Count 6: MRR=0.4356, MAP=0.1797, Hit@10=0.7857
+# QA count for  7 -hop:  8
+Hop Count 7: MRR=0.3721, MAP=0.1650, Hit@10=0.8750
+# QA count for  8 -hop:  1
+Hop Count 8: MRR=0.5000, MAP=0.2396, Hit@10=1.0000
+
+==== METRICS - HOP COUNT - Linear ====
+
+Naive RAG - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.2500, MAP=0.0625, Hit@10=1.0000
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.3667, MAP=0.0978, Hit@10=0.6667
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.3498, MAP=0.0754, Hit@10=0.7922
+
+Naive RAG Subquery - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.3542, MAP=0.1522, Hit@10=1.0000
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.2750, MAP=0.0645, Hit@10=0.6667
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.3371, MAP=0.0893, Hit@10=0.7403
+
+Hybrid RAG - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.1542, MAP=0.0385, Hit@10=0.7500
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.3111, MAP=0.0717, Hit@10=0.6667
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.3364, MAP=0.0811, Hit@10=0.8182
+
+Rerank RAG - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.3208, MAP=0.1576, Hit@10=1.0000
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.3472, MAP=0.0885, Hit@10=0.8333
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.3292, MAP=0.0788, Hit@10=0.8442
+
+Naive GraphRAG - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.0625, MAP=0.0156, Hit@10=0.2500
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.0833, MAP=0.0167, Hit@10=0.1667
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.0916, MAP=0.0208, Hit@10=0.1429
+
+KG_RAG - Linear - Hop Count
+# QA count for  4 -hop:  4
+Empty answers:  2
+Hop Count 4: MRR=0.0000, MAP=0.0000, Hit@10=0.0000
+# QA count for  5 -hop:  6
+Empty answers:  2
+Hop Count 5: MRR=0.1667, MAP=0.0333, Hit@10=0.1667
+# QA count for  6 -hop:  77
+Empty answers:  23
+Hop Count 6: MRR=0.0480, MAP=0.0090, Hit@10=0.0909
+
+GraphTRACE - Linear - Hop Count
+# QA count for  4 -hop:  4
+Hop Count 4: MRR=0.4750, MAP=0.3552, Hit@10=1.0000
+# QA count for  5 -hop:  6
+Hop Count 5: MRR=0.3806, MAP=0.1083, Hit@10=0.8333
+# QA count for  6 -hop:  77
+Hop Count 6: MRR=0.4475, MAP=0.1589, Hit@10=0.7792
+
+==== OVERALL METRICS ====
+Naive RAG EVALUATION -  converging
+MRR: 0.3502 MAP: 0.0814 Hit@10: 0.7889
+
+
+Naive RAG EVALUATION -  divergent
+MRR: 0.4261 MAP: 0.1038 Hit@10: 0.8
+
+
+Naive RAG EVALUATION -  linear
+MRR: 0.3464 MAP: 0.0763 Hit@10: 0.7931
+
+
+# OVERALL NaiveRAG #
+MRR: 0.3745 MAP: 0.0873 Hit@10: 0.794
+
+
+Naive RAG + Subquery EVALUATION -  converging
+MRR: 0.368 MAP: 0.1332 Hit@10: 0.8778
+
+
+Naive RAG + Subquery EVALUATION -  divergent
+MRR: 0.3766 MAP: 0.1164 Hit@10: 0.8333
+
+
+Naive RAG + Subquery EVALUATION -  linear
+MRR: 0.3336 MAP: 0.0905 Hit@10: 0.7471
+
+
+# OVERALL NaiveRAG Subquery #
+MRR: 0.3597 MAP: 0.1136 Hit@10: 0.8202
+
+
+Hybrid RAG EVALUATION -  converging
+MRR: 0.3431 MAP: 0.0826 Hit@10: 0.7667
+
+
+Hybrid RAG EVALUATION -  divergent
+MRR: 0.3925 MAP: 0.0995 Hit@10: 0.8111
+
+
+Hybrid RAG EVALUATION -  linear
+MRR: 0.3262 MAP: 0.0785 Hit@10: 0.8046
+
+
+# OVERALL HybridRAG #
+MRR: 0.3543 MAP: 0.087 Hit@10: 0.794
+
+
+Rerank RAG EVALUATION -  converging
+MRR: 0.3102 MAP: 0.086 Hit@10: 0.8333
+
+
+Rerank RAG EVALUATION -  divergent
+MRR: 0.3551 MAP: 0.0926 Hit@10: 0.8444
+
+
+Rerank RAG EVALUATION -  linear
+MRR: 0.33 MAP: 0.0831 Hit@10: 0.8506
+
+
+# OVERALL RerankRAG #
+MRR: 0.3318 MAP: 0.0873 Hit@10: 0.8427
+
+
+Naive GraphRAG EVALUATION -  converging
+MRR: 0.0581 MAP: 0.0161 Hit@10: 0.2667
+
+
+Naive GraphRAG EVALUATION -  divergent
+MRR: 0.017 MAP: 0.0049 Hit@10: 0.0556
+
+
+Naive GraphRAG EVALUATION -  linear
+MRR: 0.0897 MAP: 0.0203 Hit@10: 0.1494
+
+
+# OVERALL Naive GraphRAG #
+MRR: 0.0546 MAP: 0.0137 Hit@10: 0.1573
+
+
+Empty answers:  10
+KG_RAG EVALUATION -  converging
+MRR: 0.1013 MAP: 0.0179 Hit@10: 0.2556
+
+
+Empty answers:  14
+KG_RAG EVALUATION -  divergent
+MRR: 0.0863 MAP: 0.0144 Hit@10: 0.1667
+
+
+Empty answers:  27
+KG_RAG EVALUATION -  linear
+MRR: 0.054 MAP: 0.0103 Hit@10: 0.092
+
+
+# OVERALL KG RAG #
+MRR: 0.0808 MAP: 0.0143 Hit@10: 0.1723
+
+
+GraphTRACE EVALUATION -  converging
+MRR: 0.484 MAP: 0.2314 Hit@10: 0.8444
+
+
+GraphTRACE EVALUATION -  divergent
+MRR: 0.4149 MAP: 0.175 Hit@10: 0.8
+
+
+GraphTRACE EVALUATION -  linear
+MRR: 0.4442 MAP: 0.1644 Hit@10: 0.7931
+
+
+# OVERALL GraphTRACE #
+MRR: 0.4477 MAP: 0.1906 Hit@10: 0.8127
