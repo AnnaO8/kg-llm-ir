@@ -21,6 +21,7 @@ main/
 ├── evaluations/        # Evaluation scripts and metric outputs
 ├── proposed_approach/  # Main implementation of the proposed method
 │   └── GraphTRACE.py
+├── qa_generation      # 
 ├── utils/              # Utility functions and shared tools
 ├── .env                # Environment variables (should not be versioned)
 ```
@@ -55,6 +56,10 @@ python generation_evaluation.py
 The following documents includes the retrieval and generation results that are published in the thesis
 retrieval_evaluation_output.txt  
 generation_evaluation_output.txt 
+
+### How to use OpenAI's LLM (gpt4o-mini)
+The credentials are automatically used by dotenv, but initially you have to insert your private API key 
+OPEN_API_KEY=...
 
 
 
