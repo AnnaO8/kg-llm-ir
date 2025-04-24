@@ -2,7 +2,7 @@
 Github Repository of my master's thesis "Leveraging KGs and LLMs for Optimized Information Retrieval"
 
 
-Instructions to get started
+### Instructions to get started
 1. Install Visual Studio Code
 2. Install git
 3. Install neo4j Desktop
