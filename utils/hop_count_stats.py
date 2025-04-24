@@ -21,7 +21,3 @@ if __name__ == "__main__":
     analyze_hops(r'..\data\QA_Converging.csv', "QA_Converging")
     analyze_hops(r'..\data\QA_Divergent.csv', "QA_Divergent")
     analyze_hops(r'..\data\QA_Linear.csv', "QA_Linear")
-    
-    analyze_hops(r'..\data\QA_small\QA_Converging_small.csv', "QA_Converging_small")
-    analyze_hops(r'..\data\QA_small\QA_Divergent_small.csv', "QA_Divergent_small")
-    analyze_hops(r'..\data\QA_small\QA_Linear_small.csv', "QA_Linear_small")
