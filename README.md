@@ -63,12 +63,12 @@ kg-llm-ir/
 3. Use theses credentials  
    URI = "bolt://localhost:7687 (you might have to change the port number in the code to the provided port number by neo4j)  
    USERNAME = "neo4j"  
-   PASSWORD = "875421963"  
+   **PASSWORD = "875421963"** (you have to choose a password, when you create a new neo4j project)  
 4. Insert nodes into neo4j  
-   LOAD CSV WITH HEADERS FROM 'file:///Economic-KG-cleaned.csv'  
+   LOAD CSV WITH HEADERS FROM 'file:///Economic_KG.csv'  
    AS row MERGE (n:Entity {name: row.n}) MERGE (m:Entity {name: row.m});
 5. Insert edges into neo4j  
-   LOAD CSV WITH HEADERS FROM 'file:///Economic-KG-cleaned.csv'  
+   LOAD CSV WITH HEADERS FROM 'file:///Economic_KG.csv'  
    AS row  
    MATCH (a:Entity {name: row.n})  
    MATCH (b:Entity {name: row.m})  
